@@ -1,7 +1,7 @@
 {
   "note": "各日の種の current_hash を連結して SHA-256 したもの。この値は公開後に変わらないはずで、変わっていれば過去の記録が書き換えられている。",
   "algorithm": "SHA-256(concat(current_hash of each seed of the day, ordered by created_at))",
-  "chain_tip": "0ede03611508eafe44ed6cbd495635622518ef0bc6b623c34d9ef9d6457f9968",
+  "chain_tip": "b990972a52bf291ecaf6f7f54a35e74caa473000c64ad1a6cdadb4d97afd7674",
   "days": [
     {
       "date": "2026-07-26",
@@ -40,8 +40,8 @@
     },
     {
       "date": "2026-08-16",
-      "seed_count": 1,
-      "daily_hash": "2449ec3f057dd1d0459e40556946856f3db2cc3837cc253e93be1c86d6c83435"
+      "seed_count": 4,
+      "daily_hash": "f5f505a07e9104fba3e2bcd4b6ea5a148918469401bb29d612223b55a1825bb8"
     }
   ]
 }
